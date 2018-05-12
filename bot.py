@@ -242,12 +242,9 @@ async def on_message(message):
         embed.set_author(
             name="📢 Anúncio"
         )
-        embed.set_thumbnail(
-            url=message.server.icon_url
-        )
         embed.set_footer(
-            text=message.author.name,
-            icon_url=message.author.avatar_url
+            text="GamersPro™ © 2018",
+            icon_url=message.server.icon_url
         )
         await client.send_message(message.channel, "@here")
         await client.send_message(message.channel, embed=embed)
