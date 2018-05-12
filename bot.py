@@ -160,7 +160,7 @@ async def on_message(message):
         embedserver = discord.Embed(name="{} Server ".format(message.server.name), color=0x551A8B)
         embedserver.add_field(name="Nome:", value=message.server.name, inline=True)
         embedserver.add_field(name=":crown: Dono:", value=message.server.owner.mention)
-        embedserver.add_field(name="<:Id:437244194113716235> ID:", value=message.server.id, inline=True)
+        embedserver.add_field(name="ID:", value=message.server.id, inline=True)
         embedserver.add_field(name="Cargos:", value=len(message.server.roles), inline=True)
         embedserver.add_field(name=":family: Membros:", value=len(message.server.members), inline=True)
         embedserver.add_field(name=":date: Criado em:", value=message.server.created_at.strftime("%d %b %Y %H:%M"))
