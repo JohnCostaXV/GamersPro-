@@ -14,7 +14,7 @@ testmsguser = None
 COR =0x3498DB
 msg_id = None
 msg_user = None
-RANDOM_STATUS = ["refusemc.com.br"]
+RANDOM_STATUS = ["no {}".format(server.name)]
 
 user_timer = {}
 user_spam_count = {}
