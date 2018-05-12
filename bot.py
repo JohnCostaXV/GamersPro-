@@ -37,7 +37,7 @@ async def on_ready():
 
 @client.event
 async def on_member_join(member):
-  canal = client.get_channel("443174587060977664")
+  canal = client.get_channel("415675317550841887")
   embed = discord.Embed(
       title="Olá {}".format(member.name),
       color=COR,
