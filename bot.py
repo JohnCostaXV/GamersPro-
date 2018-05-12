@@ -14,7 +14,7 @@ testmsguser = None
 COR =0x3498DB
 msg_id = None
 msg_user = None
-RANDOM_STATUS = ["no GamersPro™"]
+RANDOM_STATUS = ["GamersPro™ | !ajuda"]
 
 user_timer = {}
 user_spam_count = {}
