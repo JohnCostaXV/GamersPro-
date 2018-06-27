@@ -6,13 +6,11 @@ import datetime
 import sys
 import io
 import os
-import secreto
 
 
 client = discord.Client()
 testmsgid = None
 testmsguser = None
-token = secreto.meu_token()
 
 COR =0x3498DB
 msg_id = None
@@ -253,4 +251,5 @@ async def on_message(message):
             await client.delete_message(message)
         finally:
             pass
-client.run(token)
+
+client.run(os.environ.get("BOT_TOKEN"))
