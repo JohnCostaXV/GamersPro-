@@ -7,7 +7,6 @@ import sys
 import io
 import os
 
-
 client = discord.Client()
 testmsgid = None
 testmsguser = None
