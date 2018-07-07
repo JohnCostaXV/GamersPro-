@@ -43,7 +43,7 @@ async def on_member_join(member):
         color=COR,
         description="Bem vindo ao discord da empresa {}!".format(member.server.name))
     embed.set_author(name="Olá {}!".format(member.name))
-    embed.set_thumbnail(url=member.avatar_url)
+    embed.set_thumbnail(url='https://i.imgur.com/yJey64O.png')
     await client.send_message(canal, embed=embed)
 
     role = discord.utils.get(member.server.roles, name="Visitante")
